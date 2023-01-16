@@ -10,11 +10,13 @@ sqlite3 et pdo_sqlite
 
 2. Assurez-vous d'avoir installé les utilitaires en ligne de commande de SQLite3
 correspondant à votre système d'exploitation :
-[Windows](https://www.sqlite.org/2022/sqlite-tools-win32-x86-3400100.zip)
-[Mac](https://www.sqlite.org/2022/sqlite-tools-osx-x86-3400100.zip)
-[Linux](https://www.sqlite.org/2022/sqlite-tools-linux-x86-3400100.zip)
-Pour Linux, vous pouvez aussi utiliser les paquets logiciels fournis avec votre
-distribution.
+  - [Windows](https://www.sqlite.org/2022/sqlite-tools-win32-x86-3400100.zip)
+  - [Mac](https://www.sqlite.org/2022/sqlite-tools-osx-x86-3400100.zip)
+  - [Linux](https://www.sqlite.org/2022/sqlite-tools-linux-x86-3400100.zip)
+
+
+   Pour Linux, vous pouvez aussi utiliser les paquets logiciels fournis avec votre
+   distribution.
 
 3. En ligne de commande, exécutez depuis la racine du projet le script setup.php
 situé à la racine de ce projet et depuis la racine  : ```php setup.php```

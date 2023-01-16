@@ -5,7 +5,7 @@ require_once('../../lib/http.php');
 require_once('../../lib/task.php');
 
 function do_get() {
-    require_once('../templates/task/create.form.php');
+    require_once('../templates/task/create.php');
 }
 
 function do_post() {

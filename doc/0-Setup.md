@@ -31,6 +31,10 @@ Le dossier lib/ contient le code commun aux divers scripts et modules.
 
 Le dossier doc/ contient la documentation ainsi que ces pages.
 
+Le dossier templates/ contient les vues de l'application. Ces scripts sont
+destinés à contenir le rendu HTML (avec les inclusions de variables PHP nécessaires)
+pour le rendu des pages.
+
 À la racine, on trouve la configuration générale du projet ainsi que les fichiers
 non versionnés (notamment la base de données SQLite3).
 

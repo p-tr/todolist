@@ -34,7 +34,7 @@ function get_config($section = null) {
     $replace = array_values($_vars);
 
     foreach($cfg as $key => $value) {
-        $cfg[$key] = str_replace($search, $replace, $cfg[$key]);
+        $cfg[$key] = str_replace($search, $replace, $value);
     }
 
     return $cfg;

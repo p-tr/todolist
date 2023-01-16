@@ -49,4 +49,4 @@ de données et du listing implémenté à l'étape précédente.
 ## Prochaine étape
 
 Pour la suite, vous mettrez en oeuvre l'édition, la mise à jour et la suppression
-d'une tâche donnée.
+d'une tâche donnée. C'est par [ici](./4-Edit.md) !

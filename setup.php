@@ -1,7 +1,6 @@
 <?php
 
-$rootdir = dirname(__FILE__);
-
+require_once('config.php');
 require_once('lib/db.php');
 
 function get_required_extensions() {

@@ -12,13 +12,16 @@ Le fichier public/task/create.php est donc conçu pour gérer ces deux aspects
 ## 3.2. [GET] Afficher le formulaire
 
 Complétez la fonction do_get() du script public/task/create.php et le fichier
-templates/task/create.form.php pour afficher le formulaire de création de tâche,
+templates/task/create.php pour afficher le formulaire de création de tâche,
 devant reprendre les champs prédéfinis dans le schéma de base de données (setup.sql).
 
 Prenez note que la date limite est exprimée en timestamp UNIX. À vous donc d'opérer
 la conversion entre format de date classique et timestamp UNIX en vous basant sur
 les fonctions de conversion et de manipulation du temps disponibles via la classe
 [DateTime](https://www.php.net/manual/en/class.datetime.php).
+
+Pour la saisie des dates, vous pouvez utiliser une balise input de type date : ```<input type="date" [...]>```.
+La documentation correspondante est disponible [ici](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date).
 
 ## 3.3. [POST] Traiter le formulaire
 

@@ -18,8 +18,7 @@ correspondant à votre système d'exploitation :
    Pour Linux, vous pouvez aussi utiliser les paquets logiciels fournis avec votre
    distribution.
 
-3. En ligne de commande, exécutez depuis la racine du projet le script setup.php
-situé à la racine de ce projet et depuis la racine  : ```php setup.php```
+3. En ligne de commande, exécutez depuis la racine du projet le script setup.php : ```php setup.php```
 
 ## Structure du projet
 
@@ -32,7 +31,7 @@ Le dossier lib/ contient le code commun aux divers scripts et modules.
 Le dossier doc/ contient la documentation ainsi que ces pages.
 
 Le dossier templates/ contient les vues de l'application. Ces scripts sont
-destinés à contenir le rendu HTML (avec les inclusions de variables PHP nécessaires)
+destinés à contenir le HTML dynamique (avec les inclusions de variables PHP nécessaires)
 pour le rendu des pages.
 
 À la racine, on trouve la configuration générale du projet ainsi que les fichiers
